@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hourglass</title>
+    <script defer src="./hourglass.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Time Variance Authority (TVA) <br> Analytics Division</h1>
+    </header>
+    <main>
+        <section>
+            <br>
+            <label for="txtborder">Border Character: </label>
+            <input type="text" name="txtBorder" id="txtBorder" required>
+
+            <label for="txtinner">Inner Character: </label>
+            <input type="text" name="txtInner" id="txtInner" required>
+
+            <button onclick="display()">Display!</button>
+        </section>
+        <section>
+            <br>
+            <button onclick="next()">Next</button>
+            <button onclick="previous()">Previous</button>
+            <button onclick="nexus()">Nexus Event!</button>
+        </section>
+    </main>
+    <div id="hourglass">
+
+    </div>
+</body>
+</html>
